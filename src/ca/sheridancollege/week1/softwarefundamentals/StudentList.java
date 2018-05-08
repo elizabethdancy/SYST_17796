@@ -16,12 +16,13 @@ public class StudentList {
     public static void main(String[] args)
     {
        Student [] studentList = new Student[5];
-       Student s1 = new Student();
+       Student s1 = new PartTimeStudent();
        s1.setName("Liz Dancy");
        //fill in 4 student names before running
        for(Student s: studentList)
        {
            System.out.println(s.getName());
+           
        }
         
     }
