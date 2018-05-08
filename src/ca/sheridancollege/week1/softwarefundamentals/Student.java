@@ -15,6 +15,7 @@ package ca.sheridancollege.week1.softwarefundamentals;
 public class Student 
 {
     private String name;
+    private String studentID;
 
     /**
      * @return the name
@@ -28,6 +29,20 @@ public class Student
      */
     public void setName(String givenName) {
         name = givenName;
+    }
+
+    /**
+     * @return the studentID
+     */
+    public String getStudentID() {
+        return studentID;
+    }
+
+    /**
+     * @param studentID the studentID to set
+     */
+    public void setStudentID(String studentID) {
+        this.studentID = studentID;
     }
     
     
